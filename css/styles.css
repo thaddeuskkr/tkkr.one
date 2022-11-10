@@ -66,6 +66,7 @@
   are based on 10px sizing. So basically 1.5rem = 15px :) */
   
   html {
+    overflow: hidden;
     font-size: 100%;
     background: url(/assets/background.png) no-repeat center right fixed;
     background-size: cover;
@@ -75,6 +76,8 @@
     color-scheme: dark; /* options: "light" / "dark" / "light dark" (automatically switches based on browser theme) */
   }
   body {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
