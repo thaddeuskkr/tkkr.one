@@ -67,11 +67,11 @@
   
   html {
     font-size: 100%;
-    background: url(/assets/background.png) no-repeat right center fixed;
+    background: url(/assets/background.png) no-repeat center right fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     color-scheme: dark; /* options: "light" / "dark" / "light dark" (automatically switches based on browser theme) */
   }
   body {
